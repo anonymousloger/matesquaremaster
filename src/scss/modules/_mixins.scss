@@ -1,0 +1,11 @@
+@mixin container($w: 90%, $mw: 1200) {
+	width: $w;
+	max-width: $mw;
+	margin: 0 auto;
+}
+
+@mixin icon($w: 24px, $h: 24px, $fill: $white){
+	width: $w;
+	height: $h;
+	fill: $fill;
+}
